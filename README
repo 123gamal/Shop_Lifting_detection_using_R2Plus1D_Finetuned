@@ -1,1 +1,14 @@
+🧠 R(2+1)D Video Classification Model
 
+This project implements a video classification model based on the R(2+1)D (Residual (2+1)D Convolutional Network) architecture using PyTorch and Google Colab.
+The model is trained on a custom dataset stored in Google Drive, achieving a validation accuracy of 98.86%.
+
+Key features:
+
+🎥 Processes spatio-temporal information from video frames.
+
+⚙️ Trained using transfer learning for efficient convergence.
+
+💾 Automatically saves the best-performing model (best_r2plus1d.pth) to Google Drive.
+
+🔍 Easily reloadable for inference or continued training.
